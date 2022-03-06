@@ -1,6 +1,6 @@
 # Policy_Gradent_for_CartPole
 
- We use tabular state-action value functions (Q-values) to find the optimal policy for controlling a Cart Pole.
+Here we use policy gradient approach by directly modeling the (optimal) probability for each action, and then define the policy as sampling an action based on these probabilities. Note that since the number of the actions are limited we use this approach. If we have continuous action space, then we use a slightly different approach (for more info on such case, see this [project](https://github.com/hoseinkh/Policy_Gradient_with_Continuous_action)).
 
 <br />
 
